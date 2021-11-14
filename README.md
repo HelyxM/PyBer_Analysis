@@ -24,8 +24,10 @@ In addition to the trends shown in the chart based on weekly fare totals, a summ
 ![PyBer_summary](analysis/PyBer_summary.png)
 
 ## **Summary**:
-
+The trends in the data among the different city types include a variety of factors that can influence the performances of PyBer operations in each city type. Some disparities could be characteristic of locations with different levels of urbanization and others can be caused by unrelated circumstances. To better assist the practicality of applying this analysis to the business, a small list of disparities in the results is included below along with potential factors that can cause these disparities.
 ### *Recommendations*:
-1. 
-2. 
-3. 
+1. In the PyBer summary table, the "Average Fare per Ride" and "Average Fare per Driver" have an inverse relationship with the level of urbanization of each city type, and yet the "Total Fares" has a dramatic direct relationship with the level of urbanization. This is certainly due to the increase in customers requesting rides that offsets the lower cost in the average fare for those customers and the greater number of drivers available to provide rides allowing them to have a lesser sum of fares paid per driver but more rides overall offsetting that difference.
+
+2. Another disparity is a trend on the PyBer summary table, where the "Average Fare per Driver" is greater than the "Average Fare per Ride" in both the "Rural" and "Suburban" city types but is reversed in the "Urban" city type's case. This is likely due to customers using specific drivers more frequently than others and some drivers having a greater sum of fares paid to them than others, causing an unbalanced spread among the different drivers for their fare totals. This could be due to customers having a preference for specific drivers or a trend where certain drivers are more often available for specific popular routes than others. When it comes to the density of the population of customers and drivers in the urban locations, this trend likely reverses because the increase in drivers is enough to spread out across all routes more equally.
+
+3. One final disparity to note is in addition to the previous cases above contributing to greater profits in urban areas, the lower number of rides in more rural areas can be related to a greater ownership of personal vehicles among the populations in those areas and a greater expectation to drive themselves among those populations. This could potentially explain the reason for not just a lower concentration of rides and higher cost fares, due to those taking requesting such rides not having any alternative choices for long trips, but also the consistency of fares among the rural areas. The general theory is: for a greater variety of travel choices in an area, then the frequency of ride-share requests would vary, whereas if the variety is less, then the ride-share performance would be more consistent.
